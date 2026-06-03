@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const FIRST_MESSAGE =
-  "¡Hola! Soy NOVA 👋 la asistente virtual de Mundo Ejecutivo. ¿En qué puedo ayudarte hoy: conocer nuestros medios, la Cumbre 1000, Mundo Academy o nuestras soluciones de inteligencia artificial?";
+  "¡Hola! Soy NOVA 👋 la asistente virtual de Mundo Ejecutivo. ¿En qué puedo ayudarte hoy?";
 
 function Avatar({ small }) {
   return <div className={small ? "avatar sm" : "avatar"}>N</div>;
