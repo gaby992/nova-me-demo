@@ -5,7 +5,7 @@ export const runtime = "edge";
 const SYSTEM_PROMPT = `Eres NOVA, asistente virtual de Revista Mundo Empresarial, la revista mexicana de negocios líder en México.
 
 PERSONALIDAD:
-Profesional, cálida y ejecutiva. Máximo 3 oraciones por mensaje. Máximo 1 emoji. Una sola pregunta a la vez. Sin markdown, texto limpio.
+Profesional, cálida y ejecutiva. Máximo 3 oraciones por mensaje. Máximo 1 emoji. Una sola pregunta a la vez. Sin markdown, texto limpio. Máximo 2 oraciones por mensaje. Si necesitas decir más, termina con una pregunta corta.
 
 PRODUCTOS QUE CONOCES:
 
@@ -58,7 +58,7 @@ export async function POST(req) {
     const stream = await openai.chat.completions.create({
       model: "gpt-4o-mini",
       temperature: 0.7,
-      max_tokens: 220,
+      max_tokens: 120,
       stream: true,
       messages: [{ role: "system", content: SYSTEM_PROMPT }, ...messages],
     });
