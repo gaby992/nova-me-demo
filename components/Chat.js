@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 
 const FIRST_MESSAGE =
-  "¡Hola! Soy NOVA 👋 la asistente virtual de Mundo Empresarial. ¿En qué puedo ayudarte hoy?";
+  "¡Hola! Soy NOVA 👋 la asistente virtual de Mundo Ejecutivo. ¿En qué puedo ayudarte hoy: conocer nuestros medios, la Cumbre 1000, Mundo Academy o nuestras soluciones de inteligencia artificial?";
 
 function Avatar({ small }) {
   return <div className={small ? "avatar sm" : "avatar"}>N</div>;
@@ -93,7 +93,7 @@ export default function Chat() {
       <header className="header">
         <Avatar />
         <div className="header-text">
-          <span className="header-title">MUNDO EMPRESARIAL</span>
+          <span className="header-title">MUNDO EJECUTIVO</span>
           <span className="header-subtitle">Tu asistente empresarial</span>
         </div>
         <span className="status-dot" aria-label="En línea" />

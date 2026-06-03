@@ -1,4 +1,4 @@
-# NOVA — Chat widget de IA para Revista Mundo Empresarial
+# NOVA — Chat widget de IA para Revista Mundo Ejecutivo
 
 Widget de chat con streaming construido en **Next.js (App Router)** + **OpenAI (gpt-4o-mini)**, listo para desplegar en **Vercel**.
 

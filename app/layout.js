@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "NOVA — Mundo Empresarial",
+  title: "NOVA — Mundo Ejecutivo",
   description:
-    "NOVA, la asistente virtual de Revista Mundo Empresarial. Conoce nuestra revista, directorio de empresas y soluciones de inteligencia artificial.",
+    "NOVA, la asistente virtual de Revista Mundo Ejecutivo. Conoce nuestra revista, directorio de empresas y soluciones de inteligencia artificial.",
 };
 
 export const viewport = {
